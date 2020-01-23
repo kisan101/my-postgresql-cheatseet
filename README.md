@@ -24,10 +24,11 @@ All files will be installed under /usr/local/pgsql by default.
 `$ psql`
 
 ## Service management commands:
-`sudo service postgresql stop`
-`sudo service postgresql start`
-`sudo service postgresql restart`
-
+```
+sudo service postgresql stop
+sudo service postgresql start
+sudo service postgresql restart
+```
 
 `\q:` Quit/Exit
 `\c` __database__: Connect to a database
