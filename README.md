@@ -29,7 +29,7 @@ sudo service postgresql stop
 sudo service postgresql start
 sudo service postgresql restart
 ```
-
+## Quick Help
 ```
 \q: Quit/Exit
 \c __database__: Connect to a database
