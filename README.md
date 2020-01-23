@@ -30,8 +30,9 @@ sudo service postgresql start
 sudo service postgresql restart
 ```
 
-`\q:` Quit/Exit
-`\c` __database__: Connect to a database
+```
+\q: Quit/Exit
+\c __database__: Connect to a database
 \d __table__: Show table definition including triggers
 \d+ __table__: More detailed table definition including description and physical disk size
 \l: List databases
@@ -45,3 +46,4 @@ sudo service postgresql restart
 \df+ __function__ : Show function SQL code.
 \x: Pretty-format query results instead of the not-so-useful ASCII tables
 \copy (SELECT * FROM __table_name__) TO 'file_path_and_name.csv' WITH CSV: Export a table as CSV
+```
