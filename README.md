@@ -20,17 +20,17 @@ All files will be installed under /usr/local/pgsql by default.
 
 ## Getting Started
 
-$  sudo su - postgres
-$ psql
+`$  sudo su - postgres`
+`$ psql`
 
 ## Service management commands:
-sudo service postgresql stop
-sudo service postgresql start
-sudo service postgresql restart
+`sudo service postgresql stop`
+`sudo service postgresql start`
+`sudo service postgresql restart`
 
 
-\q: Quit/Exit
-\c __database__: Connect to a database
+`\q:` Quit/Exit
+`\c` __database__: Connect to a database
 \d __table__: Show table definition including triggers
 \d+ __table__: More detailed table definition including description and physical disk size
 \l: List databases
